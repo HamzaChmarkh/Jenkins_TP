@@ -49,6 +49,9 @@ public class AmiController {
         return "simo";
     }
 
-
+    @GetMapping(value = "/getallString")
+    public String test2() {
+        return "simo2";
+    }
 
 }
