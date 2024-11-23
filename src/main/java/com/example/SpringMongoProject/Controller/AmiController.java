@@ -46,6 +46,6 @@ public class AmiController {
 
     @GetMapping(value = "/getallString")
     public String test() {
-        return "hamza";
+        return "simo";
     }
 }

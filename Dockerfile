@@ -21,4 +21,4 @@ RUN mvn clean package -DskipTests
 EXPOSE 8081
 
 # Lancer l'application (modifier selon votre fichier JAR)
-CMD ["java", "-jar", "target/SpringMongoProjet.jar"]
+CMD ["java", "-jar", "target/SpringMongoProject.jar"]
