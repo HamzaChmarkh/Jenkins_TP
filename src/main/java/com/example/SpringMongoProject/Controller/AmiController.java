@@ -48,4 +48,10 @@ public class AmiController {
     public String test() {
         return "simo";
     }
+
+    @GetMapping(value = "/getallString2")
+    public String test2() {
+        return "simo2";
+    }
+
 }
